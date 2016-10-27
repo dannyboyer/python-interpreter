@@ -11,4 +11,7 @@ what_to_execute = {
 }
 
 interpreter = Interpreter()
+print("original way:")
 interpreter.run_code(what_to_execute)
+print("dynamic way:")
+interpreter.execute(what_to_execute)
